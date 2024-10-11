@@ -1,19 +1,14 @@
-import { useState } from "react";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
-import { Emojis } from "./components/ShowInitialEmojis";
+import { Emojis } from "./components/ShowEmojis";
 import { EmojiModal } from "./components/EmojiModal";
 
 function App() {
-  const [isEmojiModalOpen, setIsEmojiModalOpen] = useState(false);
   return (
     <>
-      <EmojiModal
-        isEmojiModalOpen={isEmojiModalOpen}
-        setIsEmojiModalOpen={setIsEmojiModalOpen}
-      />
       <Header />
-      <Emojis setIsEmojiModalOpen={setIsEmojiModalOpen} />
+      <Emojis />
+      <EmojiModal />
       <Footer />
     </>
   );
