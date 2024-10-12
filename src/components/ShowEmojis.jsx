@@ -18,10 +18,10 @@ export const Emojis = () => {
           import.meta.env.VITE_API_KEY
         }`
       );
-      console.log(response);
+      // console.log(response);
       if (response.status === 200) {
         const emojis = response.data.slice(0, 40);
-        console.log("First 40 emojis", emojis);
+        // console.log("First 40 emojis", emojis);
         setEmojis(emojis);
       }
     } catch (error) {
@@ -43,7 +43,7 @@ export const Emojis = () => {
           {loading ? (
             <SkeletonLoader />
           ) : (
-            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 p-8 gap-4">
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 p-8 pt-0 md:pt-8 gap-4">
               <Emoji data={emojis} />
             </div>
           )}

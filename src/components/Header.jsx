@@ -17,7 +17,7 @@ export const Header = () => {
             import.meta.env.VITE_API_KEY
           }`
         );
-        console.log(response);
+        // console.log(response);
         if (
           response.data.status === "error" &&
           response.data.message === "No results found"
@@ -50,7 +50,7 @@ export const Header = () => {
       <input
         type="text"
         placeholder="Search for emojis..."
-        className="border border-gray-300 px-3 py-2 rounded-md w-96 mt-5 md:mt-0"
+        className="border border-gray-300 px-3 py-2 rounded-md w-full sm:max-w-96 mt-5 md:mt-0"
         onChange={handleChange}
       />
     </header>

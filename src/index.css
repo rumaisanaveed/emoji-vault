@@ -9,3 +9,7 @@ body {
 .rm-emoji-modal .ant-modal {
   width: 400px !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
