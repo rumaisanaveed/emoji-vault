@@ -50,21 +50,19 @@ export const Emojis = () => {
         </>
       ) : (
         <>
+          <div className="px-8 text-xl">
+            <p>🔍 Search</p>
+            <p className="pt-2">Search Results for: "{query}"</p>
+            {searchResults.length === 0 && query !== "" && (
+              <p className="pt-2">No emojis found...</p>
+            )}
+          </div>
           {searchResultsLoading ? (
             <SkeletonLoader />
           ) : (
-            <>
-              <div className="px-8 text-xl">
-                <p>🔍 Search</p>
-                <p className="pt-2">Search Results for: "{query}"</p>
-                {searchResults.length === 0 && query !== "" && (
-                  <p className="pt-2">No emojis found...</p>
-                )}
-              </div>
-              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 p-8 gap-4">
-                {searchResults.length > 0 && <Emoji data={searchResults} />}
-              </div>
-            </>
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 p-8 gap-4">
+              {searchResults.length > 0 && <Emoji data={searchResults} />}
+            </div>
           )}
         </>
       )}
