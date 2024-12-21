@@ -1,4 +1,4 @@
-```markdown
+---
 # Emoji Vault
 
 Welcome to **Emoji Vault**, a user-friendly tool designed to make searching and copying emojis easier than ever! This project is built using **React** and **Vite**, providing a seamless experience with a clean and minimalistic interface.
@@ -7,7 +7,7 @@ Welcome to **Emoji Vault**, a user-friendly tool designed to make searching and 
 
 ## 📖 Introduction
 
-Ever needed to search for the perfect emoji but got lost in countless platforms? Emoji Vault allows users to easily search for emojis, view a list of different emoji options, and copy their desired emoji directly to the clipboard in just a click!
+Ever needed to search for the perfect emoji but got lost in countless platforms? **Emoji Vault** allows users to easily search for emojis, view a list of options, and copy their desired emoji directly to the clipboard in just a click!
 
 👉 **Live Project**: [Emoji Vault](https://emoji-vault.vercel.app)
 
@@ -15,10 +15,10 @@ Ever needed to search for the perfect emoji but got lost in countless platforms?
 
 ## 🚀 Features
 
-- 🔍 **Easy Emoji Search**: A quick and powerful search function to find emojis effortlessly.
+- 🔍 **Easy Emoji Search**: Quickly find the emoji you need with an intuitive search bar.
 - 📋 **Copy to Clipboard**: Copy emojis with a single click for seamless use.
-- 📱 **Responsive Design**: A visually appealing and user-friendly interface on all devices.
-- ⚡ **Fast Performance**: Built with Vite to ensure minimal load times and a smooth experience.
+- 📱 **Responsive Design**: A user-friendly interface that works beautifully across all devices.
+- ⚡ **Fast Performance**: Built with **Vite** to ensure a smooth experience with minimal load times.
 - 🕸️ **Dynamic Modal**: Displays emoji details in a sleek popup with a copy feature.
 - ⏳ **Skeleton Loaders**: Smooth transitions while waiting for API responses.
 
@@ -26,67 +26,71 @@ Ever needed to search for the perfect emoji but got lost in countless platforms?
 
 ## 💡 What I Learned
 
-### 💡 What problem did I face?
+### Challenges Faced
 
-- I frequently faced the challenge of copying emojis to use in my projects. It was frustrating hopping between platforms just to find the right one, so I decided to solve this problem for myself by building such a platform by myself. 
+- 💭 **Problem**: Copying emojis from different platforms was inconvenient and time-consuming.
+- ✨ **Solution**: **Emoji Vault** provides a seamless experience with a minimalistic design, making it easy to find and copy emojis instantly.
 
-### ✨ Solution:
+### Key Takeaways
 
-Emoji Vault offers a smooth and seamless user experience with a clean, minimalistic design that makes finding and copying emojis a breeze. No more endless searching or juggling different websites!
+- 🧑‍💻 **React.js**: Reinforced skills in building interactive and scalable applications.
+- 🎨 **Tailwind CSS**: Improved proficiency in creating responsive and visually appealing UIs.
+- 🌐 **API Integration**: Learned to leverage external APIs for dynamic content.
+- 🚀 **Deployment**: Gained hands-on experience deploying on **Vercel**.
 
 ---
 
-## 🛠 Tech Stack Used: 
-- React.js: Chose it for its simplicity and efficiency. 
-- Tailwind CSS: It's my way to go tool for fast styling. 
-- API Used: https://emoji-api.com 
-- Deployment: Deployed on Vercel. 
-- Data Fetching: Used Axios for API requests. 
-- Components: Utilized Ant Design for polished UI components.
+## 🛠 Tech Stack Used
+
+- **React.js**: Chosen for its simplicity and efficiency.
+- **Tailwind CSS**: Used for fast and responsive UI styling.
+- **Ant Design**: Utilized for polished and ready-to-use UI components.
+- **emoji-api.com**: Free API for accessing emojis.
+- **Axios**: Used for seamless API integration.
+- **Vercel**: Deployment platform for hosting the application.
 
 ---
 
 ## 🛠️ The Process
 
 1. 🖌️ **UI Design**: 
-   - 🧠 Brainstormed design ideas and generated the initial UI using an AI design tool.
+   - 🧠 Brainstormed design ideas and used an AI tool to generate the initial UI.
 
 2. 🎨 **Frontend Development**: 
-   - ✍️ Coded the UI using **React.js** and **Tailwind CSS** for a responsive and clean layout.
+   - ✍️ Built the UI with **React.js** and **Tailwind CSS**, ensuring responsiveness.
 
 3. 📦 **Ant Design Integration**: 
-   - 🚀 Incorporated Ant Design components to save development time and ensure polished visuals.
+   - 🚀 Incorporated Ant Design components to save development time and improve UI consistency.
 
 4. 🌐 **API Integration**: 
-   - 🔗 Integrated [emoji-api.com](https://emoji-api.com) with Axios to fetch emoji data.
+   - 🔗 Integrated [emoji-api.com](https://emoji-api.com) with Axios for fetching emoji data.
 
 5. 🔍 **Search Functionality**:
-   - 🛠️ Implemented a search feature with API calls to filter emojis based on user input.
-   - 🛡️ Added input restrictions to prevent excessive API calls for short queries.
+   - 🛠️ Implemented a search feature that fetches emojis dynamically based on user input.
+   - 🛡️ Added restrictions to prevent unnecessary API calls for single-character inputs.
 
 6. 📋 **Modal and Copy Functionality**:
-   - ⚡ Built a modal to display emoji details and added a copy-to-clipboard feature.
+   - ⚡ Designed a modal to display emoji details and implemented a copy-to-clipboard feature.
 
 7. ⏳ **Loading State**:
-   - 🌀 Added skeleton loaders to maintain user experience during API response times.
+   - 🌀 Added skeleton loaders to enhance user experience during API response times.
 
 8. 🌍 **Deployment**: 
-   - 🚀 Deployed the application on Vercel for easy accessibility.
+   - 🚀 Deployed the app on **Vercel**, making it accessible for everyone.
 
 ---
 
----
+## 🚦 Running the Project
 
-### 🚦 **Running the Project**
-To run **Resumaker** in your local environment, follow these steps:
+To run **Emoji Vault** in your local environment, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/rumaisanaveed/emoji-vault.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd resumaker
+   cd emoji-vault
    ```
 3. Install dependencies:
    ```bash
@@ -100,8 +104,7 @@ To run **Resumaker** in your local environment, follow these steps:
 
 ---
 
+## 🍿 Demo Video
 
-### 🍿 **Video**
-[**Watch the demo video here!**]()
-
+🎥 [**Watch the demo video here!**](#)
 ```
