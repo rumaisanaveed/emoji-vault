@@ -97,7 +97,7 @@ To run **Emoji Vault** in your local environment, follow these steps:
 
 ---
 
-## 🍿 Demo Video
+### 🍿 **Video**
+[**Watch the demo video here!**]()
 
-🎥 [**Watch the demo video here!**]()
-```
+---
