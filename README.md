@@ -28,15 +28,8 @@ Ever needed to search for the perfect emoji but got lost in countless platforms?
 
 ### Challenges Faced
 
-- 💭 **Problem**: Copying emojis from different platforms was inconvenient and time-consuming.
-- ✨ **Solution**: **Emoji Vault** provides a seamless experience with a minimalistic design, making it easy to find and copy emojis instantly.
-
-### Key Takeaways
-
-- 🧑‍💻 **React.js**: Reinforced skills in building interactive and scalable applications.
-- 🎨 **Tailwind CSS**: Improved proficiency in creating responsive and visually appealing UIs.
-- 🌐 **API Integration**: Learned to leverage external APIs for dynamic content.
-- 🚀 **Deployment**: Gained hands-on experience deploying on **Vercel**.
+- 💭 **Problem**: I frequently faced the challenge of copying emojis to use in my projects. It was frustrating hopping between platforms just to find the right one, so I decided to solve this problem for myself by building such a platform by myself.
+- ✨ **Solution**: **Emoji Vault** offers a smooth and seamless user experience with a clean, minimalistic design that makes finding and copying emojis a breeze. No more endless searching or juggling different websites!
 
 ---
 
@@ -106,5 +99,5 @@ To run **Emoji Vault** in your local environment, follow these steps:
 
 ## 🍿 Demo Video
 
-🎥 [**Watch the demo video here!**](#)
+🎥 [**Watch the demo video here!**]()
 ```
