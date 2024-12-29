@@ -98,9 +98,8 @@ To run **Emoji Vault** in your local environment, follow these steps:
 ---
 
 ### 🍿 **Video**
-[**Watch the demo video here!**] 
 <video width="100%" controls>
-  <source src="Videos/emoji-vault/demo.mp4" type="video/mp4">
+  <source src="Videos/emoji-vault.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
