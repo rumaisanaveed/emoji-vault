@@ -85,7 +85,7 @@ accelerating issue fixes.
 - Conducted comprehensive severity assessments, ensuring major issues were prioritized for
 faster resolution, leading to an enhanced end-user experience.
 
-Check the **testing documentation** here : [ResuMaker Testing Documentation](https://www.notion.so/resumaker-testing-documentation/ResuMaker-Project-Testing-1a20d1931ce980028d58e157d5c27489)
+Check the **testing documentation** here : [Emoji Vault Testing Documentation](https://www.notion.so/resumaker-testing-documentation/ResuMaker-Project-Testing-1a20d1931ce980028d58e157d5c27489)
 
 ---
 
