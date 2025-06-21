@@ -41,8 +41,6 @@ Ever needed to search for the perfect emoji but got lost in countless platforms?
 - **emoji-api.com**: Free API for accessing emojis.
 - **Axios**: Used for seamless API integration.
 - **Vercel**: Deployment platform for hosting the application.
-- **JIRA** : Used for bug reporting & tracking.
-- **Notion** : Used for project and testing documentation.
 
 ---
 
@@ -72,20 +70,6 @@ Ever needed to search for the perfect emoji but got lost in countless platforms?
 
 8. 🌍 **Deployment**: 
    - 🚀 Deployed the app on **Vercel**, making it accessible for everyone.
-
----
-
-## Testing the Project
-- Strategized and implemented in-depth test cases and scenarios using Notion, ensuring
-flawless functionality and seamless user experience.
-- Uncovered and documented 30+ defects in JIRA, significantly enhancing the app’s reliability
-and performance.
-- Engineered a robust defect tracking system, optimizing the bug resolution workflow and
-accelerating issue fixes.
-- Conducted comprehensive severity assessments, ensuring major issues were prioritized for
-faster resolution, leading to an enhanced end-user experience.
-
-Check the **testing documentation** here : [Emoji Vault Testing Documentation](https://www.notion.so/resumaker-testing-documentation/ResuMaker-Project-Testing-1a20d1931ce980028d58e157d5c27489)
 
 ---
 
